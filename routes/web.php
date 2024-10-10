@@ -5,7 +5,7 @@ use App\Models\Cliente;
 
 Route::get('/', function () {
     return [
-        'Clientes por cidades' => Cliente::with('cidade')->get(),
+        'Clientes' => Cliente::with('cidade')->get(),
 ];
 });
 

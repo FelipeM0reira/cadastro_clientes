@@ -9,7 +9,7 @@ use Exception;
 class CidadeController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the resource. aa
      */
     public function index()
     {
